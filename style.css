@@ -23,17 +23,23 @@ body {
 /* ----- zde zacni psat vlastni css ----- */
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Rubik', sans-serif;
     background-color: #f5f5f5;
     font-size: 14px;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 .polozka {
     display: flex;
     width: 670px;
     height: 440px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     color: #ffffff;
     border-radius: 10px;
     box-shadow: 2px 2px 7px #c9c9c9;
